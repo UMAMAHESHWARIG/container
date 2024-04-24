@@ -1,0 +1,16 @@
+.graph-container {
+    display: flex; 
+    height: 100vh; 
+  }
+   
+  .left-section {
+    overflow: auto;
+    flex: 7; 
+    border: 1px solid #ccc;
+    position: relative;
+  }
+   
+  .right-section {
+    flex: 3;
+    border: 1px solid #ccc;
+  } 
